@@ -1,0 +1,15 @@
+body{
+    background-image: linear-gradient(to right, #2f1661 , #341958 );
+    
+}
+img{
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 10px 10px 10px black;
+}
+h1{
+    color: white;
+}
+a{
+    color: white;
+}

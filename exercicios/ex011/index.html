@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIdias em HTML5</title>
+    <style>
+        mark{
+            background-color: rgb(114, 255, 114);
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 700)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" 
+        srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em html5</p>
+      <audio preload="metadata" autoplay controls >
+      <source src="midia/c-quer-dar-c-fala_IQeBFoS.mp3" type="audio/mpeg">
+      <p>Infelizmente seu navegador não consegue reproduzir áudios. <a href="midia/c-quer-dar-c-fala_IQeBFoS.mp3">Clice aqui para baixar o audio</a></p>
+      </audio>
+</body>
+</html>
